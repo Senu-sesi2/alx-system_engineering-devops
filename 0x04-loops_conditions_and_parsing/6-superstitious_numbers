@@ -4,30 +4,24 @@
 # displays 9 and then bad luck from Japan
 # displays 17 and then bad luck from Italy
 
-COUNTER=1
-while [ $COUNTER -lt 21 ]
+j="1"
+while [ $j -le 20 ]
 do
-    case $COUNTER in
-
-        4)
-	    echo $COUNTER
-	    echo "bad luck from China"
-	    ;;
-	
-	9)
-	    echo $COUNTER
-	    echo "bad luck from Japan"
-	    ;;
-	
-	17)
-	    echo $COUNTER
-	    echo "bad luck from Italy"
-	    ;;
-
-	*)
-	    echo $COUNTER
-	    ;;
-    esac
-
-    let COUNTER+=1
+	case $j in
+		4)
+			echo "$j"
+			echo "bad luck from China"
+			;;
+		9)
+			echo "$j"
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "$j"
+			echo "bad luck from Italy"
+			;;
+		*)
+			echo "$j"
+	esac
+	((j++))
 done
