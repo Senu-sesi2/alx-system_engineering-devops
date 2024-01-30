@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# This script that iteration numbers from 1 to 20 and:
+# displays 4 and then bad luck from China
+# displays 9 and then bad luck from Japan
+# displays 17 and then bad luck from Italy
+
+COUNTER=1
+while [ $COUNTER -lt 21 ]
+do
+    case $COUNTER in
+
+        4)
+	    echo $COUNTER
+	    echo "bad luck from China"
+	    ;;
+	
+	9)
+	    echo $COUNTER
+	    echo "bad luck from Japan"
+	    ;;
+	
+	17)
+	    echo $COUNTER
+	    echo "bad luck from Italy"
+	    ;;
+
+	*)
+	    echo $COUNTER
+	    ;;
+    esac
+
+    let COUNTER+=1
+done
