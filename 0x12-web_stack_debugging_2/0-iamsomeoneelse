@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script that accepts one argument
+# I have no idea what this is all about but we are cyclone
+sudo -u "$1" whoami
