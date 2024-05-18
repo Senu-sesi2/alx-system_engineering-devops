@@ -1,4 +1,4 @@
-# (sddefault.jpg)
+# [postmortem to grow](sddefault-1.jpg)
 
 ## Postmortem for Web Stack Debugging #4
 
