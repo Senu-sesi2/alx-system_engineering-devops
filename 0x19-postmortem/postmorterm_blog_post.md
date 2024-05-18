@@ -1,4 +1,4 @@
-# [alt text](sddefault.jpg)
+# (sddefault.jpg)
 
 ## Postmortem for Web Stack Debugging #4
 
